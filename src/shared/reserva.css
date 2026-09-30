@@ -1,0 +1,128 @@
+/* Faixa de reserva: sem caixa, só linhas finas. Por defeito sobre a fotografia (texto claro);
+   .reserva--claro para fundo claro. */
+.reserva {
+  --r-fg: #fff8ec;
+  --r-mute: rgb(255 248 236 / 0.72);
+  --r-line: rgb(255 248 236 / 0.32);
+  --r-accent: #f3c77a;
+  --r-pad: clamp(1rem, 1.6vw, 1.35rem) clamp(1rem, 2vw, 1.75rem);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.25fr;
+  width: 100%;
+  color: var(--r-fg);
+  border-top: 1px solid var(--r-line);
+}
+.reserva--claro {
+  --r-fg: #1e1a15;
+  --r-mute: #5b5147;
+  --r-line: rgb(30 26 21 / 0.2);
+  --r-accent: #8a6212;
+  border-bottom: 1px solid var(--r-line);
+}
+
+.reserva__campo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: var(--r-pad);
+  border-left: 1px solid var(--r-line);
+  min-width: 0;
+}
+.reserva__campo:first-child { border-left: 0; padding-left: 0; }
+.reserva__campo:focus-within { outline: 1px solid var(--r-fg); outline-offset: -1px; }
+
+.reserva__rotulo {
+  font: 500 0.7rem/1 var(--sans);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--r-mute);
+}
+
+.reserva__valor {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font: 400 clamp(1.15rem, 1.7vw, 1.5rem) / 1.2 var(--serif);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* O input nativo cobre o campo: teclado, leitores de ecrã e seletor do sistema continuam a funcionar. */
+.reserva__nativo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  border: 0;
+  font-size: 16px; /* evita zoom no iOS */
+}
+
+.reserva__contador {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font: 400 clamp(1.15rem, 1.7vw, 1.5rem) / 1 var(--serif);
+}
+.reserva__contador output { min-width: 1.6ch; text-align: center; }
+.reserva__contador button {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 1.8rem; /* mesma altura da linha das datas: os rótulos ficam alinhados */
+  padding: 0;
+  border: 1px solid transparent;
+  background: none;
+  color: inherit;
+  font: 300 1.3rem/1 var(--sans);
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+.reserva__contador button:first-child { margin-left: -0.6rem; }
+.reserva__contador button:hover:not(:disabled) { border-color: var(--r-line); }
+.reserva__contador button:disabled { opacity: 0.35; cursor: default; }
+.reserva__contador button:focus-visible { outline: 1px solid var(--r-fg); outline-offset: 0; }
+
+.reserva__booking { text-decoration: none; transition: background-color 0.3s ease; }
+.reserva__booking .reserva__rotulo { color: var(--r-accent); }
+.reserva__booking svg { flex: none; margin-left: auto; transition: transform 0.3s ease; }
+.reserva__booking:hover { background: color-mix(in srgb, var(--r-fg) 7%, transparent); }
+.reserva__booking:hover svg { transform: translateX(6px); }
+.reserva__booking:focus-visible { outline: 1px solid var(--r-fg); outline-offset: -1px; }
+
+.reserva__whatsapp {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--r-line);
+  font-size: 0.9rem;
+  color: var(--r-fg);
+  text-decoration: none;
+}
+.reserva__whatsapp[aria-disabled='true'] { color: var(--r-mute); cursor: not-allowed; }
+
+@media (max-width: 760px) {
+  .reserva { grid-template-columns: 1fr 1fr; --r-pad: 0.95rem 1rem; }
+  .reserva__campo--pessoas,
+  .reserva__booking {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 0;
+    border-top: 1px solid var(--r-line);
+    padding-left: 0;
+  }
+  .reserva__booking .reserva__valor { flex: 0 1 auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reserva__booking, .reserva__booking svg, .reserva__contador button { transition: none; }
+}

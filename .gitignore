@@ -1,0 +1,12 @@
+node_modules
+dist
+
+# O repositório é público. Ficam só neste computador:
+# - o dossiê do cliente (dados do dono, contrato, contactos, avaliações dos hóspedes);
+# - os originais das fotos (as de terceiros têm a licença por confirmar). O site usa as versões de public/img,
+#   geradas por scripts/imagens.py a partir destas pastas.
+dossie/
+fotos-externas/*
+!fotos-externas/CREDITOS.md
+fotos-processadas/*
+!fotos-processadas/LEIA-ME.md

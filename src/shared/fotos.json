@@ -1,0 +1,765 @@
+{
+ "vista-01": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/exterior/vista-01.jpg"
+ },
+ "fachada-01": {
+  "w": 1066,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1066
+  ],
+  "origem": "dossie/marketing/fotos/exterior/fachada-01.jpg"
+ },
+ "fachada-02": {
+  "w": 1066,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1066
+  ],
+  "origem": "dossie/marketing/fotos/exterior/fachada-02.jpg"
+ },
+ "patio-01": {
+  "w": 1066,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1066
+  ],
+  "origem": "dossie/marketing/fotos/exterior/patio-01.jpg"
+ },
+ "sala-01": {
+  "w": 1535,
+  "h": 2040,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1535
+  ],
+  "origem": "dossie/marketing/fotos/interior/sala-01.jpg"
+ },
+ "sala-02": {
+  "w": 1535,
+  "h": 2040,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1535
+  ],
+  "origem": "dossie/marketing/fotos/interior/sala-02.jpg"
+ },
+ "refeicoes-01": {
+  "w": 1535,
+  "h": 2040,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1535
+  ],
+  "origem": "dossie/marketing/fotos/interior/refeicoes-01.jpg"
+ },
+ "cozinha-01": {
+  "w": 1535,
+  "h": 2040,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1535
+  ],
+  "origem": "dossie/marketing/fotos/interior/cozinha-01.jpg"
+ },
+ "quarto-16": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-16.jpg"
+ },
+ "quarto-22": {
+  "w": 1200,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-22.jpg"
+ },
+ "quarto-02": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-02.jpg"
+ },
+ "quarto-23": {
+  "w": 1200,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-23.jpg"
+ },
+ "corredor-01": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/corredor-01.jpg"
+ },
+ "detalhe-01": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/detalhe-01.jpg"
+ },
+ "quarto-10": {
+  "w": 1600,
+  "h": 1204,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-10.jpg"
+ },
+ "quarto-05": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-05.jpg"
+ },
+ "quarto-01": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-01.jpg"
+ },
+ "quarto-09": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-09.jpg"
+ },
+ "quarto-30": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-30.jpg"
+ },
+ "quarto-18": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-18.jpg"
+ },
+ "quarto-24": {
+  "w": 1200,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-24.jpg"
+ },
+ "quarto-14": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-14.jpg"
+ },
+ "quarto-06": {
+  "w": 1535,
+  "h": 2040,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1535
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-06.jpg"
+ },
+ "quarto-31": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-31.jpg"
+ },
+ "casa-de-banho-02": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-02.jpg"
+ },
+ "casa-de-banho-06": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-06.jpg"
+ },
+ "casa-de-banho-03": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-03.jpg"
+ },
+ "casa-de-banho-04": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-04.jpg"
+ },
+ "quarto-08": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-08.jpg"
+ },
+ "quarto-11": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-11.jpg"
+ },
+ "quarto-12": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-12.jpg"
+ },
+ "quarto-13": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-13.jpg"
+ },
+ "quarto-15": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-15.jpg"
+ },
+ "casa-de-banho-05": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-05.jpg"
+ },
+ "quarto-17": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-17.jpg"
+ },
+ "quarto-19": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-19.jpg"
+ },
+ "quarto-20": {
+  "w": 1200,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-20.jpg"
+ },
+ "quarto-21": {
+  "w": 1200,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-21.jpg"
+ },
+ "casa-de-banho-07": {
+  "w": 1200,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-07.jpg"
+ },
+ "casa-de-banho-08": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-08.jpg"
+ },
+ "quarto-25": {
+  "w": 1535,
+  "h": 2040,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1535
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-25.jpg"
+ },
+ "quarto-26": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-26.jpg"
+ },
+ "quarto-27": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-27.jpg"
+ },
+ "quarto-03": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-03.jpg"
+ },
+ "casa-de-banho-01": {
+  "w": 1535,
+  "h": 2040,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1535
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-01.jpg"
+ },
+ "quarto-28": {
+  "w": 2250,
+  "h": 3000,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-28.jpg"
+ },
+ "quarto-29": {
+  "w": 2250,
+  "h": 3000,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-29.jpg"
+ },
+ "quarto-04": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-04.jpg"
+ },
+ "quarto-07": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-07.jpg"
+ },
+ "quarto-32": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/quarto-32.jpg"
+ },
+ "casa-de-banho-09": {
+  "w": 1536,
+  "h": 2048,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1536
+  ],
+  "origem": "dossie/marketing/fotos/interior/casa-de-banho-09.jpg"
+ },
+ "cozinha-02": {
+  "w": 1204,
+  "h": 1600,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1204
+  ],
+  "origem": "dossie/marketing/fotos/interior/cozinha-02.jpg"
+ },
+ "cozinha-03": {
+  "w": 1535,
+  "h": 2040,
+  "larguras": [
+   480,
+   800,
+   1200,
+   1535
+  ],
+  "origem": "dossie/marketing/fotos/interior/cozinha-03.jpg"
+ },
+ "alta-mondego-01": {
+  "w": 4032,
+  "h": 4024,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400,
+   3200
+  ],
+  "origem": "fotos-externas/alta-mondego-01.jpg"
+ },
+ "perto-museu": {
+  "w": 5472,
+  "h": 3648,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400
+  ],
+  "origem": "fotos-externas/perto-museu.jpg"
+ },
+ "perto-universidade": {
+  "w": 5472,
+  "h": 3648,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400
+  ],
+  "origem": "fotos-externas/perto-universidade.jpg"
+ },
+ "perto-universidade-02": {
+  "w": 2296,
+  "h": 4080,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2296
+  ],
+  "origem": "fotos-externas/perto-universidade-02.jpg"
+ },
+ "perto-universidade-03": {
+  "w": 3000,
+  "h": 4000,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400
+  ],
+  "origem": "fotos-externas/perto-universidade-03.jpg"
+ },
+ "coimbra-entardecer": {
+  "w": 3168,
+  "h": 1344,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400,
+   3168
+  ],
+  "origem": "fotos-externas/coimbra-entardecer.jpg"
+ },
+ "coimbra-entardecer-02": {
+  "w": 2730,
+  "h": 1536,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400,
+   2730
+  ],
+  "origem": "fotos-externas/coimbra-entardecer-02.jpg"
+ },
+ "perto-aqueduto": {
+  "w": 5024,
+  "h": 2752,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400
+  ],
+  "origem": "fotos-externas/perto-aqueduto.jpg"
+ },
+ "perto-santa-clara": {
+  "w": 5184,
+  "h": 3456,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400
+  ],
+  "origem": "fotos-externas/perto-santa-clara.jpg"
+ },
+ "perto-museu-02": {
+  "w": 1200,
+  "h": 983,
+  "larguras": [
+   640,
+   1024,
+   1200
+  ],
+  "origem": "fotos-externas/perto-museu-02.jpg"
+ },
+ "perto-santa-clara-02": {
+  "w": 3282,
+  "h": 1874,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400
+  ],
+  "origem": "fotos-externas/perto-santa-clara-02.jpg"
+ },
+ "perto-aqueduto-02": {
+  "w": 4080,
+  "h": 2720,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400
+  ],
+  "origem": "fotos-externas/perto-aqueduto-02.jpg"
+ },
+ "fachada-01-hd": {
+  "w": 1682,
+  "h": 2528,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   1682
+  ],
+  "origem": "fotos-processadas/fachada-01-hd.jpg"
+ },
+ "fachada-03-hd": {
+  "w": 1682,
+  "h": 2168,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   1682
+  ],
+  "origem": "fotos-processadas/fachada-03-hd.jpg"
+ },
+ "patio-02": {
+  "w": 1138,
+  "h": 1517,
+  "larguras": [
+   640,
+   1024,
+   1138
+  ],
+  "origem": "fotos-processadas/patio-02.jpg"
+ },
+ "fachada-02-hd": {
+  "w": 2132,
+  "h": 3200,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2132
+  ],
+  "origem": "fotos-processadas/fachada-02-hd.jpg"
+ },
+ "vista-01-hd": {
+  "w": 3072,
+  "h": 4096,
+  "larguras": [
+   640,
+   1024,
+   1600,
+   2400,
+   3072
+  ],
+  "origem": "fotos-processadas/vista-01-hd.jpg"
+ }
+}
